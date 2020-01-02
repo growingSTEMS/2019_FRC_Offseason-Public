@@ -1,0 +1,13 @@
+Hi Richard,
+
+I'm attaching the latest library version of the LabVIEW code. You shouldn't need the original code at this point, with the exception of the "tuning/ID" panel code - we'll be replacing that shortly.
+
+The .so file needs to be dropped into the file structure of the RoboRIO, similar to what happens on the back end of the other vendors'
+"installers". FTP into to the RIO, then drop the file here:
+ftp://10.XX.XX.2/usr/local/frc/third-party/lib/
+I don't think you need any additional files to be installed with this, assuming all of the FRC updates have been installed/run.
+
+Let me know if you run into any issues and we'll get it figured out. I can send you screenshots of my working program for reference, if that'd be helpful. I have a 6-Venom drive base with a spare motor for profiling work.
+
+Thanks,
+Justin

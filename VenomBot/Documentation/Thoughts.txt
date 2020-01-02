@@ -1,0 +1,8 @@
+- Tested Set Speed
+
+Add set sensor position (optional)
+Needs set Voltage Compensation like CTRE products
+What is b on set command
+What is follow the leader
+When you invert the motor, the readSpeed does not report the inverted value.
+Does acceleration setting effect Velocity control, if so it probably shouldn't.
